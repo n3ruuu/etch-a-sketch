@@ -1,0 +1,68 @@
+body {
+    background-color: #181818;
+    color: #ededed;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.container {
+    display: grid;
+    width: 550px;
+    margin: auto;
+}
+
+.container div {
+    width: 100%; 
+    padding-top: 100%;
+    background-color: #ccc; 
+}
+
+.settings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 16px;
+    width: 700px;
+    margin: 20px auto;
+}
+
+/* Style for the color picker */
+#color-picker {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    background-color: transparent; 
+    border-radius: 50%; 
+}
+
+input[type='color']::-webkit-color-swatch {
+    border-radius: 50%;
+}
+
+button {
+    height: 50px;
+    width: 120px;
+    color: rgb(151, 53, 53);
+    font-weight: bold;
+    border-style: none;
+    border-radius: 32px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 16px 0;
+}
+
+#size-value {
+    color: #ccc;
+}
+
+
+.active {
+    background-color: #111111;
+}
